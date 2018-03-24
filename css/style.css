@@ -1,0 +1,50 @@
+*{
+	margin: 0 ;
+	padding: 0;
+}
+.full{
+	height: 100vh;
+}
+.cub{
+	width: 300px;
+	height: 300px;
+	background: red;
+	margin:auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index:3;
+}
+.cub1{
+	width: 120px;
+	height: 120px;
+	background: blue;    
+	transform: rotate(-45deg);    
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index:2;
+}
+.cub3{
+	visibility: hidden;
+	width: 100px;
+	height: 100px;
+	background: #43981e;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	z-index:1;
+}
+.loader {
+  animation: loader 2s 3 linear;
+}
+
+@keyframes loader {
+  0% {transform:rotate(-45deg)}
+  50%{transform:rotate(-135deg)}
+  100%{transform:rotate(-225deg)}}
